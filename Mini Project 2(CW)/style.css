@@ -39,7 +39,7 @@ html,body{
 
 #card2{
     z-index: 3;
-    rotate: -7deg;
+    rotate: 7deg;
     background-color: antiquewhite;
 }
 #card2:hover{
@@ -48,7 +48,7 @@ html,body{
 
 #card3{
     z-index: 2;
-    rotate: -14deg;
+    rotate: 14deg;
     background-color: aqua;
 }
 #card3:hover{
@@ -58,7 +58,7 @@ html,body{
 #card4{
     z-index: 1;
     background-color: azure;
-    rotate: -21deg;
+    rotate: 21deg;
 }
 #card4:hover{
     z-index: 10;
