@@ -17,6 +17,7 @@ header{
     justify-content:space-around;
     position: fixed;
     border: 1px solid black;
+    background-color: white;
 }
 
 #hiddenheader{
@@ -39,49 +40,83 @@ header{
     color: rgb(221, 7, 7);
 }
 
-
-main{
-    height: 87%;
-    display: flex;
-}
-
-.intro{
-    height: 100%;
-    width: 50%;
+@media only screen and (min-width: 500px) and (max-width: 2000px){
+    main{
+        height: 87%;
+        display: flex;
+    }
+    
+    .intro{
+        height: 100%;
+        width: 50%;
+        
+    }
+    
+    .intro h1{
+        margin: 20% 5% 0% 20%;
+    }
+    .intro p{
+        margin:5% 5% 0% 20%;
+        letter-spacing: 2px;
+    }
+    
+    .photo{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .photo img{
+        width: 70%;
+        margin:15% 20% 15% 0%;
+    }
     
 }
 
-.intro h1{
-    margin: 20% 5% 0% 20%;
+@media only screen and (min-width: 0px) and (max-width: 499px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .intro{
+        height: 100%;
+        width: 1000%;
+        
+    }
+    
+    .intro h1{
+        margin: 5%;
+    }
+    .intro p{
+        margin: 5%;
+        letter-spacing: 2px;
+    }
+    
+    .photo{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .photo img{
+        width: 85%;
+        margin: 5%
+    }
+    
 }
-.intro p{
-    margin:5% 5% 20% 20%;
-}
-
-.photo{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-
-.photo img{
-    width: 70%;
-    margin:15% 20% 15% 0%;
-}
-
-
-
-
-
-
 
 
 #ftr{
-    height: 40px;
-    background-color: black;
-    color: white;
+    height: 5%;
+    width: 100%;
+    border-top: 1px solid black;
+    font-weight:lighter;
+    font-size: small;
     display: flex;
     align-items: center;
     justify-content: center;
